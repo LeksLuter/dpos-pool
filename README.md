@@ -1,6 +1,6 @@
-# Lisk pool distribution software
+# Dpos-pool distribution software
 This software is created by lisk delegate "dakk", please consider a small donation if you
-use this software: 
+use this software:
 - "2324852447570841050L" for lisk
 - "7725849364280821971S" for shift
 - "AZAXtswaWS4v8eYMzJRjpd5pN3wMBj8Rmk" for ark
@@ -38,7 +38,7 @@ If you want to run a private pool, you need to edit config.json and:
 ### Ark & Kapu
 If you are using this software on ark, you should edit pollogs_example_ark.json and put:
 
-- lastpayout: the unixtimestamp of your last payout or the date of pool starting 
+- lastpayout: the unixtimestamp of your last payout or the date of pool starting
 - lastforged: the forged amount recorded in your last payout or the forged amount of pool starting
 
 then move poollogs_example_ark.json to poollogs.json.
@@ -120,9 +120,9 @@ optional arguments:
 
 ## Lisk 1.0.0 (still WIP), Rise 1.0.0 and Oxy 1.0.0 migration
 
-Since Lisk version 1.0.0 (still WIP), Rise version 1.0.0 and Oxy version 1.0.0, APIs with secret used for creating 
+Since Lisk version 1.0.0 (still WIP), Rise version 1.0.0 and Oxy version 1.0.0, APIs with secret used for creating
 transaction are not available anymore, so we need to use the dpos-api-fallback
-(a special thanks for vekexasia who made this tool). 
+(a special thanks for vekexasia who made this tool).
 
 First, update the lisk-pool source, then install dpos-api-fallback inside the lisk-pool
 directory:
@@ -152,4 +152,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-

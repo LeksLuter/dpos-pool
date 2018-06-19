@@ -1,16 +1,16 @@
 {
-	"coin": "LISK",
+	"coin": "RISE",
 	"node": "http://localhost:8000",
 	"nodepay": "http://localhost:8000",
-	"pubkey": "120d1c3847bd272237ee712ae83de59bbeae127263196fc0f16934bcfa82d8a4",
-	"percentage": 15,
+	"pubkey": "616029b68b5c0429ea75397455d915f759058a6225d7fd51b724f50b7e94a8c6",
+	"percentage": 90,
 	"logfile": "poollogs.json",
 	"minpayout": 1.0,
 	"secret": "SECRET",
 	"secondsecret": "SECRET2",
 	"feededuct": false,
     "donations": {
-		"7702627792787017504L": 150
+		"15134567710357553739R": 150
     },
     "donationspercentage": {
 	},
